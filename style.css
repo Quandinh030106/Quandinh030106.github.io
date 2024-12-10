@@ -2,14 +2,12 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f0f0f0;
-  /* Add a subtle linear gradient for a modern touch */
   background-image: linear-gradient(to right, #f0f0f0, #e0e0e0);
 }
 
 h1 {
   color: #333;
-  /* Add a slight shadow for depth */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -22,18 +20,20 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: #3e8e41; /* Darker green on hover */
+    background-color: #3e8e41;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
   }
 }
 
 a {
   color: white;
   text-decoration: none;
-  /* Add a subtle underline on hover */
   text-decoration: underline;
   text-decoration-color: transparent;
   transition: text-decoration-color 0.3s ease-in-out;
